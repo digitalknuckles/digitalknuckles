@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @digitalknuckles
-- 👀 I’m interested in W3B and NFTs
+- 👀 I’m interested in W3B and NFTs(https://opensea.io/0x55b9a821214a0939034aa4298a7e2e432ddd7002)
 - 🌱 I’m currently learning W3B DEV
 - 💞️ I’m looking to collaborate on W3B NFT Gaming Dev
 - 📫 How to reach me [Digitalknuckles Spatial.io](https://www.spatial.io/s/Digitalknuckless-Collectors-View-6716ac267752d9bc2d6c841c?share=8129734405140788373)
