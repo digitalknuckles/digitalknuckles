@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DigitalKnuckles Productions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #111;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #d4145a, #fbb03b);
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2rem;
+      margin: 0;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #fbb03b;
+      font-family: 'Orbitron', sans-serif;
+      margin-top: 2rem;
+    }
+    a {
+      color: #00eaff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .mint-section {
+      background: #222;
+      border: 1px solid #333;
+      padding: 1rem;
+      margin-top: 2rem;
+      border-radius: 12px;
+      text-align: center;
+    }
+    button {
+      background: #fbb03b;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      color: #111;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 1rem;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #d4145a;
+      color: white;
+    }
+  </style>
+  <script>
+    async function mintNFT() {
+      if (typeof window.ethereum !== 'undefined') {
+        try {
+          await ethereum.request({ method: 'eth_requestAccounts' });
+          const accounts = await ethereum.request({ method: 'eth_accounts' });
+          alert(`Minting will be triggered for: ${accounts[0]} (Simulated)`);
+          // Connect to contract/mint logic here...
+        } catch (err) {
+          console.error(err);
+          alert('Minting failed. See console.');
+        }
+      } else {
+        alert('Please install MetaMask to mint this NFT.');
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>🥊 DigitalKnuckles Productions</h1>
+    <p>Punching Through the Metaverse</p>
+  </header>
+
+  <div class="container">
+    <p>DigitalKnuckles Productions is an independent multimedia studio creating original NFT collections, token-integrated games, interactive AI pets, and physical-crypto hybrid card games.</p>
+
+    <h2>🌐 Explore the DKP Ecosystem</h2>
+    <ul>
+      <li><a href="https://funfartgames.com/digitalknuckles">FunFartGames.com/digitalknuckles</a></li>
+      <li><a href="https://digitalknuckles.wordpress.com">WordPress Dev Log</a></li>
+      <li><a href="https://setplaywin.com">SetPlayWin.com (Token-Gated)</a></li>
+      <li><a href="https://www.spatial.io/@Digitalknuckles">Spatial.io HQ</a></li>
+    </ul>
+
+    <div class="mint-section">
+      <h2>🚀 Interactive Minting</h2>
+      <p>Mint your exclusive DKP NFT directly to your wallet. Connect MetaMask and punch into the metaverse!</p>
+      <button onclick="mintNFT()">Connect Wallet & Mint</button>
+    </div>
+
+    <h2>🎨 Featured NFT Collections</h2>
+    <ul>
+      <li><a href="https://opensea.io/collection/beanmanogclub">Beanman OG</a> – Satirical sketch legends</li>
+      <li><a href="https://opensea.io/collection/fetchclub">FETCH OG</a> – Pixel doggos with degen loyalty</li>
+      <li><a href="https://opensea.io/collection/jackpop">Jackpop OG</a> – Pop-art chaos unleashed</li>
+      <li><a href="https://opensea.io/collection/knuckleheadogs">KnuckleHeadOGs</a> – Core DKP avatars</li>
+      <li><a href="https://opensea.io/collection/sofakingog">SofaKing OG</a> + <a href="https://opensea.io/collection/sofakingv2">V2</a></li>
+      <li><a href="https://opensea.io/collection/cyberpetsai">CyberPets AI</a> – Interactive pets</li>
+      <li><a href="https://opensea.io/collection/scraplords-collectibles">Scraplords</a> – Post-apocalyptic brawlers</li>
+      <li><a href="https://opensea.io/collection/spedz">SPEDZ</a> – Speed meets memes</li>
+      <li><a href="https://opensea.io/collection/mukpunks-based">MukPunks</a> – BASED punk degeneracy</li>
+      <li><a href="https://opensea.io/collection/heartbones">Heart & Bones</a> – Skeletons with soul</li>
+      <li><a href="https://opensea.io/collection/pixel-cubs-10k">PixelCubs 10k</a> – Flip-game cubs</li>
+      <li><a href="https://opensea.io/collection/my-persona-id">MyPersonaID</a> – MBTI tribe NFTs</li>
+      <li><a href="https://opensea.io/collection/yogatai-fu-1">YogaTai Fu</a> – Martial mystics</li>
+      <li><a href="https://opensea.io/collection/digitalknuckles-collectors-edition">DigitalKnuckles Collectibles</a> – Rare DKP artifacts</li>
+    </ul>
+
+    <h2>📈 Upcoming Projects</h2>
+    <p>Club Kubai, YogaTai Sensei, Big Back Bears, Polywoggers, Funfart Arcade, MukPunks V2, SPEDZ V2, Nuclear Heights, KnuckleHeadOGs V2, Zombie Nillo, Scraplords Bounty Base, Scraplords TCG</p>
+
+    <h2>💸 DKP Tokens</h2>
+    <ul>
+      <li>$BBS – Game economy token for Scraplords</li>
+      <li>$FARTS – Native arcade token for FunFartGames.com</li>
+      <li><a href="https://opensea.io/collection/groupies-meme-coin">$GMC</a> – Groupies Meme Coin for SetPlayWin.com</li>
+    </ul>
+
+    <h2>🎲 Physical Game Titles</h2>
+    <ul>
+      <li><a href="https://www.thegamecrafter.com/games/knuckleheadogs-series-1">KHOGs Series 1</a></li>
+      <li><a href="https://www.thegamecrafter.com/games/scraplords:-bounty-bash-mini-decks-">Scraplords: BountyBash</a></li>
+      <li><a href="https://www.thegamecrafter.com/games/dizzy-drip-dojo">Dizzy Drip Dojo</a></li>
+    </ul>
+
+    <h2>🎁 Airdrop Collections</h2>
+    <p>CyberPets AI, Heart & Bones, PixelCubs 10k, MyPersonaID — more unlocked at milestones.</p>
+
+  </div>
+</body>
+</html>
