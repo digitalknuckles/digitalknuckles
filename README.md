@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @digitalknuckles
+- 👋 Hi, I’m [@Digitalknuckles](https://digitalknuckles.xyz/)
 - 👀 I’m interested in W3B and NFTs [Digitalknuckles Opensea.io](https://opensea.io/0x55b9a821214a0939034aa4298a7e2e432ddd7002)
 - 🌱 I’m currently learning W3B DEV
 - 💞️ I’m looking to collaborate on W3B NFT Gaming Dev
